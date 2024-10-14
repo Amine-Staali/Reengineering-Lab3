@@ -1,0 +1,4 @@
+{
+    "plantuml.commandArgs": ["-DGRAPHVIZ_DOT=\"C:\\Program Files\\Graphviz\\bin\\dot.exe\""]
+
+}
