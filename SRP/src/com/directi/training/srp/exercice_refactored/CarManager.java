@@ -7,6 +7,8 @@ public class CarManager
     CarsNamesManager carsNamesManager;
     BestCarManager bestCarManager;
 
+    public CarManager(){}
+
     public Car getFromDb(final String carId){
         return requestFromDB.getFromDb(carId);
     }
