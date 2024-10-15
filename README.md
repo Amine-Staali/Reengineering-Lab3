@@ -1,1 +1,3 @@
 # SOLID PRINCIPLES
+- SRP
+- OCP
