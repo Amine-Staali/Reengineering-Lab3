@@ -13,3 +13,7 @@ To address this, we created an interface that defines all the necessary methods,
 ## 3. LSP: Liskov Substitution Principle
 
 In the `Pool` class, we initially created a variable of the parent class type but used the subclass constructor. Because we had overridden the parent method, we might not get the expected behavior. To resolve this, we decided to create an interface that each class can implement, ensuring that all subclasses adhere to a consistent interface.
+
+## 4. ISP: Interface Segregation Principle
+
+In the `Door` class, we had methods that were used in both the `SensingDoor` and `TimedDoor` classes. To improve organization, we extracted these common methods into their own interface. Then, we created two separate interfaces for each door type, containing their specific methods, and implemented these interfaces in the corresponding classes.
