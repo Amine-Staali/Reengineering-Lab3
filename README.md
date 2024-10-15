@@ -1,2 +1,1 @@
 # SOLID PRINCIPLES
-new commit
