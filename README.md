@@ -17,3 +17,7 @@ In the `Pool` class, we initially created a variable of the parent class type bu
 ## 4. ISP: Interface Segregation Principle
 
 In the `Door` class, we had methods that were used in both the `SensingDoor` and `TimedDoor` classes. To improve organization, we extracted these common methods into their own interface. Then, we created two separate interfaces for each door type, containing their specific methods, and implemented these interfaces in the corresponding classes.
+
+## 5. DIP: Dependency inversion principle
+
+In the `EncodingModule` class, we had a direct dependency on the `MyDatabase` class. To resolve this, we created an interface as an intermediary.
